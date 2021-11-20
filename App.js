@@ -3,7 +3,11 @@ Ext.define('CustomApp', {
     componentCls: 'app',
     launch: function() {
         //Write app code here
+        alertMe();
+       
+    },
 
-        //API Docs: https://help.rallydev.com/apps/2.1/doc/
-    }
+    _loadEpics: function(){},
+
+    _loadFeatures: function(){}
 });
